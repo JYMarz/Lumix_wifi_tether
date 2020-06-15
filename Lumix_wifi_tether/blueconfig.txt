@@ -1,0 +1,10 @@
+//this file contains the bluetooth adress of your positionning device, then the commands associated with the buttons
+// and that called every two seconds for getting infos. \r\n will be added to each command(DO NOT SUPRESS these 2 comment lines)
+00140306810E
+U
+D
+L
+R
+G
+//end of file
+

@@ -1,0 +1,8 @@
+//Yolo V3 configuration 1st line is the path to yoloV3 weights, 2nd to yolov3 cfg (you can use yolov3-tiny file instead)
+// in each of next lines put the names of the classes (choose in yolonames.txt) you want to display. DO NOT SUPPRESS THESE 2 COMMENT LINES
+C:\\Yolov3\\yolov3.weights
+C:\\Yolov3\\yolov3.cfg
+C:\\Yolov3\\yolov3names.txt
+bird
+chair
+//end of file do not add new line or CR

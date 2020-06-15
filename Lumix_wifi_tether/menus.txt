@@ -1,0 +1,11 @@
+ iso [auto][i_iso][200][400][800][1600][3200][6400][12800][25600]
+ whitebalance [auto][daylight][cloudy][shade][halogen][flash][white_set1][white_set2][white_set3][white_set4][color_temp __value__]
+ lightmetering [multi][center][spot]
+ afmode [facedetection][aftracking][49area][custom_multi horizontal][1area][pinpoint]
+ exposure 
+ videoquality [avchd_50p_28mbps][avchd_50i_17mbps][avchd_50i_24mbps][avchd_24p_24mbps][mp4_25p_100mbps_4k][mp4_24p_100mbps_4k][mp4_50p_28mbps][mp4_25p_20mbps][mp4_25p_10mbps][mp4_25p_4mbps]
+ quality [fine][standard][raw_fine][raw_standard][raw]
+ pictsize [12m][6.5m][3m]
+ filter_setting [noeffect][pop][retro][old_days][high_key][low_key][sepia][monochro][dynamic_monochro][rough_monochro][silky_monochro][impressive_art][high_dynamic][cross_proc][toy_photo][toy_pop][bleach_bypass][diorama][soft_focus][fantasy][cross_filter][one_point_color][sunshine]
+ colormode [standard __value__][vivid __value__][natural __value__][bw __value__][scenery __value__][portrait __value__][custom __value__]
+ drivemode [aspect_bracket]
