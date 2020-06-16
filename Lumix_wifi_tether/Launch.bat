@@ -11,7 +11,7 @@ set mask="12"
 set udpinit="60606"
 set blue="false"
 set yolo="false"
-set notdev="false"
+set notdev="true"
 
 set scriptdir=%~dp0
 set opencvdir=C:\\opencv-4.3.0\\opencv\\build\\java\\x64

@@ -102,7 +102,7 @@ public class fond_ecran extends JFrame implements ActionListener{
 	private JComboBox comboBox_color;
 	private JComboBox comboBox_whibal;
 	private static String[] comboList;
-	public static boolean notdev=false; 
+	public static boolean notdev=true; 
 	private static File f;
 	private JTextField textField;
 	private JTextField textField_1;
