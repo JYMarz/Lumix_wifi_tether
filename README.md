@@ -73,7 +73,7 @@ Leave the last line of the file as a comment line.
 
 Leave the 2 first lines as comments;
 
-The 3 following lines are the absolute paths of the Yolo files, in the order .weights, .cfg, and the file containing the classes names.
+The 3 following lines are the absolute paths of the Yolo files, in the order .weights, .cfg, and the file containing the classes names. Be aware of using \\ (instead of \) in your file paths.
 
 The next lines contain each the name of the objects you want to detect.
 
@@ -81,7 +81,7 @@ Leave the last line of the file as a comment line.
 
 ### Launch.bat 
 
-This file contains the directory where the opencv java dll is on your system: change it accordingly
+This file contains variable opencvdir which is the directory where the opencv java dll is on your system: change it accordingly for me C:\\opencv-4.3.0\\opencv\\build\\java\\x64
 
 This file contains the default values for different parameters that can however be passed as arguments as (Launch.bat 192.168.54.1 12 and so on).
 
