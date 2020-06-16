@@ -1,8 +1,10 @@
 # HowTo
 
+If you want to know more on the project history and have some more details, refer to the doc (word) file in the project directory.
+
 ## Requirements:
 
-The program was compiled for Windows 10, X64: I presume it will not work, using the provided jar in win32.
+The program was compiled for Windows 10, X64: I presume it will not work in win32, using the provided jar .
 
 You will need Java Runtime Environment JRE 1.8.0 installed and the bin directory where java.exe is to be added to your PATH.
 
