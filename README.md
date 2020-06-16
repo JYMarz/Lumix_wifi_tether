@@ -83,7 +83,7 @@ Leave the last line of the file as a comment line.
 
 This file contains the directory where the opencv java dll is on your system: change it accordingly
 
-This file contains the default values for different parameters that can however be passed as arguments as (Launch.bat â€œ192.168.54.1â€� â€œ12â€� and so on).
+This file contains the default values for different parameters that can however be passed as arguments as (Launch.bat 192.168.54.1 12 and so on).
 
 The first parameter is the IP address of the LX-100
 
@@ -91,11 +91,11 @@ The second is the subnet mask to find a free address on which the video flux wil
 
 The third is the port number on which the handshake with the camera is made (see the doc), by default, it is 60606
 
-Parameter number 4 is â€œtrueâ€� if you intend to use Bluetooth, â€œfalseâ€� otherwise.
+Parameter number 4 is true if you intend to use Bluetooth, false otherwise.
 
-Parameter number 5 is â€œtrueâ€� if you are using Yolo detection, â€œfalseâ€� otherwise.
+Parameter number 5 is true if you are using Yolo detection, false otherwise.
 
-Parameter 6 is â€œtrueâ€� if you want to connect to the camera, â€œfalseâ€� just for test 
+Parameter 6 is true if you want to connect to the camera, false just for test 
 purposes.
 
 You must pass the parameters in this order.
