@@ -1,6 +1,6 @@
 # HowTo
 
-If you want to know more on the project history and have some more details, refer to the doc (word) file in the project directory.
+If you want to know more on the project history and have some more details, refer to the doc (word) file in the project directory. Although it was written specifically for Lumix LX-100, I presume that it will work also with other Panasonic cameras.
 
 ## Requirements:
 
