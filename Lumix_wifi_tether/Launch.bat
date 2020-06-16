@@ -14,6 +14,7 @@ set yolo="false"
 set notdev="false"
 
 set scriptdir=%~dp0
+set opencvdir=C:\\opencv-4.3.0\\opencv\\build\\java\\x64
 
 if not "%1"=="" (
     set ip=%1
@@ -41,7 +42,8 @@ if not "%6"=="" (
 
 rem if "%ip%" == "" goto :noip
 
-start "" java -Xms512M -Xmx1024M -jar Lumix_wifi_tether.jar %ip% %mask% %udpinit% %blue% %yolo% %notdev%
+start "" java -Xms512M -Xmx1024M -Djava.library.path=%opencvdir% ^
+-jar Lumix_wifi_tether.jar %ip% %mask% %udpinit% %blue% %yolo% %notdev%
 goto :eof
 
 rem :noip
