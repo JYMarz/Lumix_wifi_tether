@@ -1,6 +1,6 @@
 # HowTo
 
-##Requirements:
+## Requirements:
 
 The program was compiled for Windows 10, X64: I presume it will not work, using the provided jar in win32.
 
@@ -16,7 +16,7 @@ For me, OpenCV 4.3.0 for windows X64
 
 https://opencv.org/opencv-4-3-0/
 
-###Objects detection:
+### Objects detection:
 
 If you want to use object detection, you will have to download YOLO V3 weights, cfg and names:
 
@@ -38,7 +38,7 @@ https://github.com/pjreddie/darknet/blob/master/data/coco.names
 
 Store the 3 files on your hard disk drive somewhereâ€¦
 
-##Configuration files:
+## Configuration files:
 
 Apart from jre, you need to copy the following files, in the same directory:
 
@@ -59,7 +59,7 @@ yoloconfig.txt
 
 Edit blueconfig.txt, yoloconfig.txt, and Launch.bat to match your configuration.
 
-###blueconfig.txt
+### blueconfig.txt
 
 Leave the 2 first lines as comments;
 
@@ -69,7 +69,7 @@ The following lines are the commands to send when clicking U, D, L,R buttons (in
 
 Leave the last line of the file as a comment line.
 
-###yoloconfig.txt
+### yoloconfig.txt
 
 Leave the 2 first lines as comments;
 
@@ -79,7 +79,7 @@ The next lines contain each the name of the objects you want to detect.
 
 Leave the last line of the file as a comment line.
 
-###Launch.bat 
+### Launch.bat 
 
 This file contains the directory where the opencv java dll is on your system: change it accordingly
 
@@ -100,7 +100,7 @@ purposes.
 
 You must pass the parameters in this order.
 
-##Usage
+## Usage
 
 Once you have adapted the configuration and launcher files, 
 
@@ -118,7 +118,7 @@ From the name of the buttons, you can infer their usage, for most of them.
 
 The four sliders (top left) allow to change the parameters of the image treatment used for motion detection. 
 
-##Caveats
+## Caveats
 
 1)	For the size of the application screen to be scaled properly, you may have to change the properties of java.exe in the Jre/bin directory. right click on it, compatibility, modify PPP , replace PPP scaling, choose System.
 
