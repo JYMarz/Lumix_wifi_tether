@@ -1237,10 +1237,10 @@ public class fond_ecran extends JFrame implements ActionListener{
 			if(notdev) {
 			System.out.println("Getting setting capabilities by getting allmenu");
 			String outStr1=send("mode=getinfo&type=allmenu");
-//	      System.out.println(outStr2);
+//	      System.out.println(outStr1);
 			String outStr2=send("mode=getinfo&type=curmenu");
 //			System.out.println("curmenu");;
-//			System.out.println(outStr1);
+//			System.out.println(outStr2);
 	      TimeUnit.SECONDS.sleep(1);
 
 				Parser ps= new Parser(outStr1,outStr2);

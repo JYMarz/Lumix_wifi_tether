@@ -9,8 +9,8 @@ rem For ease of use, you can make a shortcut to this .bat file that will launch 
 set ip= "192.168.54.1"
 set mask="12"
 set udpinit="60606"
-set blue="false"
-set yolo="false"
+set blue="true"
+set yolo="true"
 set notdev="true"
 
 set scriptdir=%~dp0

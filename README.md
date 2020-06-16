@@ -1,6 +1,6 @@
-HowTo
+#HowTo
 
-Requirements:
+##Requirements:
 
 The program was compiled for Windows 10, X64: I presume it will not work, using the provided jar in win32.
 
@@ -16,7 +16,7 @@ For me, OpenCV 4.3.0 for windows X64
 
 https://opencv.org/opencv-4-3-0/
 
-Objects detection:
+###Objects detection:
 
 If you want to use object detection, you will have to download YOLO V3 weights, cfg and names:
 
@@ -36,9 +36,9 @@ and the same file for classes names.
 
 https://github.com/pjreddie/darknet/blob/master/data/coco.names
 
-Store the 3 files on your hard disk drive somewhere…
+Store the 3 files on your hard disk drive somewhereâ€¦
 
-Configuration files:
+##Configuration files:
 
 Apart from jre, you need to copy the following files, in the same directory:
 
@@ -59,7 +59,7 @@ yoloconfig.txt
 
 Edit blueconfig.txt, yoloconfig.txt, and Launch.bat to match your configuration.
 
-blueconfig.txt
+###blueconfig.txt
 
 Leave the 2 first lines as comments;
 
@@ -69,7 +69,7 @@ The following lines are the commands to send when clicking U, D, L,R buttons (in
 
 Leave the last line of the file as a comment line.
 
-yoloconfig.txt
+###yoloconfig.txt
 
 Leave the 2 first lines as comments;
 
@@ -79,11 +79,11 @@ The next lines contain each the name of the objects you want to detect.
 
 Leave the last line of the file as a comment line.
 
-Launch.bat 
+###Launch.bat 
 
 This file contains the directory where the opencv java dll is on your system: change it accordingly
 
-This file contains the default values for different parameters that can however be passed as arguments as (Launch.bat “192.168.54.1” “12” and so on).
+This file contains the default values for different parameters that can however be passed as arguments as (Launch.bat â€œ192.168.54.1â€� â€œ12â€� and so on).
 
 The first parameter is the IP address of the LX-100
 
@@ -91,16 +91,16 @@ The second is the subnet mask to find a free address on which the video flux wil
 
 The third is the port number on which the handshake with the camera is made (see the doc), by default, it is 60606
 
-Parameter number 4 is “true” if you intend to use Bluetooth, “false” otherwise.
+Parameter number 4 is â€œtrueâ€� if you intend to use Bluetooth, â€œfalseâ€� otherwise.
 
-Parameter number 5 is “true” if you are using Yolo detection, “false” otherwise.
+Parameter number 5 is â€œtrueâ€� if you are using Yolo detection, â€œfalseâ€� otherwise.
 
-Parameter 6 is “true” if you want to connect to the camera, “false” just for test 
+Parameter 6 is â€œtrueâ€� if you want to connect to the camera, â€œfalseâ€� just for test 
 purposes.
 
 You must pass the parameters in this order.
- 
-Usage
+
+##Usage
 
 Once you have adapted the configuration and launcher files, 
 
@@ -118,11 +118,11 @@ From the name of the buttons, you can infer their usage, for most of them.
 
 The four sliders (top left) allow to change the parameters of the image treatment used for motion detection. 
 
-Caveats
+##Caveats
 
 1)	For the size of the application screen to be scaled properly, you may have to change the properties of java.exe in the Jre/bin directory. right click on it, compatibility, modify PPP , replace PPP scaling, choose System.
 
-2)	Although the program should work with most Panasonic cameras (untested…), LX-100 has some limitations. All parameters that are set manually (aperture, speed, focus mode,…) cannot be changed remotely (and appear greyed). 
+2)	Although the program should work with most Panasonic cameras (untestedâ€¦), LX-100 has some limitations. All parameters that are set manually (aperture, speed, focus mode,â€¦) cannot be changed remotely (and appear greyed). 
 
 
 
